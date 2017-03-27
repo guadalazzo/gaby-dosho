@@ -1,0 +1,27 @@
+*{
+	font-family: 'Noto Sans', sans-serif;
+}
+ul{
+	float: left;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	list-style: none;
+	padding-top: 5px;
+}
+ul li{
+	padding: 5px;
+	margin: 10px;
+	}
+ul li:hover{
+	border-bottom: white 2px solid; 
+}	
+nav{
+	background-color: orange;
+	height: 35px;
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
