@@ -1,27 +1,71 @@
 *{
-	font-family: 'Noto Sans', sans-serif;
 }
-ul{
-	float: left;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+.navbar.toggled nav a{
 	width: 100%;
-	list-style: none;
-	padding-top: 5px;
-}
-ul li{
+	box-sizing: border-box;
 	padding: 5px;
-	margin: 10px;
-	}
-ul li:hover{
-	border-bottom: white 2px solid; 
-}	
-nav{
-	background-color: orange;
-	height: 35px;
+	padding-left: 15px;
+	display: block;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+i{
+	padding: 10px;
+	color: white;
+}
+.navbar.toggled .nav-bar{
+	display: block;
+}
+.navbar .nav-bar{
+	display: none;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-toggled{
+	text-decoration: none;
+	display: block;
 	width: 100%;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+	height: 60px;
+	text-align: right;
+	background-color: orange;
+}
+
+@media (min-width: 992px) {
+	.navbar .nav-bar{
+		display: block;
+	}
+	.navbar{
+		width:100%;
+		margin-bottom: 0px;
+	}
+	.nav-bar{
+		padding-top: 25px;
+		justify-content: center;
+		height: 70px;
+		width: 100%;
+		display:inline-block;
+	 	text-align:center;
+	 	background-color: orange;
+	}
+	.nav-button{
+		font-size: 18px;
+		font-family: 'Noto Sans', sans-serif;
+		margin:10px;
+		padding:15px !important;
+		text-decoration: none;
+		display: inline !important;
+		width: auto !important;
+		color: white;
+		background-color: orange;
+		transition-duration: 0.9s;
+	}
+	.nav-button:hover{
+		
+	}
+	.navbar-toggled{
+		display: none;
+	}
 }
