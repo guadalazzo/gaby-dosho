@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'products-component',
-  templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css']
+  selector: 'paqyprom-component',
+  templateUrl: './paqyprom.component.html',
+  styleUrls: ['./paqyprom.component.css']
 })
-export class ProductsComponent {
-  ProductsComponent = 'queseyo';
+export class PaqypromComponent {
+  PaqypromComponent = 'queseyo';
 }
