@@ -1,0 +1,30 @@
+footer{
+ 	background-color: #c68119;
+ 	height:10vh;
+ 	width: 100%;
+ 	display: inline-flex;
+ 	align-items: center;
+ }
+ .sign{
+ 	color: white;
+ 	height:10vh;
+ 	width: 100%;
+ 	display: inline-flex;
+ 	align-items: center; 
+ 	justify-content: flex-end;
+ 	padding-right: 10px;
+ }
+ .contact{
+ 	font-family: 'Noto Sans', sans-serif;
+ 	width: 50%;
+ 	font-size: 15px;
+ 	color: white;
+ 	padding-left: 10px;
+ }
+ @media (min-width: 992px) {
+ 	.sign p{
+ 		float: right;
+ 		font-size: 15px;
+ 		font-family: 'Noto Sans', sans-serif;
+ 	}
+ }	 
