@@ -24,17 +24,6 @@ const appRoutes: Routes = [
   { path:'product', component: ProductComponent },
   { path:'contact', component: ContactComponent },
   { path: '**', component: PageNotFoundComponent },
-
-  // {
-  //   path: 'heroes',
-  //   component: HeroListComponent,
-  //   data: { title: 'Heroes List' }
-  // },
-  // { path: '',
-  //   redirectTo: '/heroes',
-  //   pathMatch: 'full'
-  // },
-  // { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
