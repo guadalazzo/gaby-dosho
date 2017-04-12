@@ -7,13 +7,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BodyComponent } from './body.component';
 import {FooterComponent} from './footer.component';
+import {MenuComponent} from './menu.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
