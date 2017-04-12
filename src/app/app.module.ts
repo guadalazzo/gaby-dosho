@@ -8,17 +8,39 @@ import { AppComponent } from './app.component';
 import { BodyComponent } from './body.component';
 import {FooterComponent} from './footer.component';
 import {MenuComponent} from './menu.component';
+import {HomeComponent} from './home-components/home.component';
+import {AboutComponent} from './about-components/about.component';
+import {PageNotFoundComponent} from './page-not-found/pagenotfound.component';
 
-
+const appRoutes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent},
+  { path: 'about',component: AboutComponent},
+  { path: '**', component: PageNotFoundComponent }
+  // {
+  //   path: 'heroes',
+  //   component: HeroListComponent,
+  //   data: { title: 'Heroes List' }
+  // },
+  // { path: '',
+  //   redirectTo: '/heroes',
+  //   pathMatch: 'full'
+  // },
+  // { path: '**', component: PageNotFoundComponent }
+];
 
 @NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
     FooterComponent,
-    MenuComponent
+    MenuComponent,
+    HomeComponent,
+    AboutComponent,
+    PageNotFoundComponent
   ],
   imports: [
+    RouterModule.forRoot(appRoutes),
     BrowserModule,
     FormsModule,
     HttpModule
