@@ -1,31 +1,23 @@
-  import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { BodyComponent } from './body.component';
-import { MenuComponent } from './menu.component';
-import { FooterComponent} from './footer.component';
-import { CONST_ROUTING } from './app.routing';
+import {FooterComponent} from './footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
-    FooterComponent,
-    ProductsComponent,
-    PaqypromComponent,
-    AboutComponent,
-    ContactComponent,
-    MenuComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    CONST_ROUTING
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
