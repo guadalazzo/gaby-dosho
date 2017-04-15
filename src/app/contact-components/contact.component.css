@@ -1,0 +1,76 @@
+.container{
+	background: url('/images/Tranquility1.jpg');
+	background-size: cover;
+	min-height: 100vh;
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.title{
+	margin-top: 10vh;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Macondo', cursive;
+}
+form{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	height: calc(80vh - 30vh);
+	padding: 0px;
+}
+.form-group{
+	width: 80%;
+}
+.base{
+	background-color: rgba(255, 255, 255, 0.75); 
+	height:  95vh;
+	width: 90%; 
+	border-radius: 20px;
+}
+.btn-default{
+	background-color: orange; 
+	color: white;
+	padding: 0px;
+	font-size: 20px;
+	border: 5px transparent solid;
+}
+.btn-default:hover{
+	border: 5px white solid;
+	transition: 0.3s;
+}
+.social-icons{
+	text-align: center;
+	height: 10vh;
+	margin: 0px;
+	
+}
+.social-icons h2{
+	font-family: 'Macondo', cursive;
+	font-size: 33px;
+}
+.social-icons a{
+	display: inline-block;
+	margin-left:  10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: #4286f4;
+}
+.social-icons a:hover{
+	transition: 0.3s;
+	text-decoration: none;
+	color: #366ec9
+}
+@media(min-width: 800px){
+	.container{
+		background-size: 100% 100%;
+	}
+	.btn-default{
+		padding: 8px 12px;
+		min-height: 20px;
+		line-height: 20px;
+
+	}
+}

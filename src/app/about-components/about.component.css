@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.container{
+	background-image: url('/images/spa.jpg');
+	background-size: 100vw 85vh;
+	height: 85vh;
+	width: 100%;
+	display: block;
+}
+.title{
+	color: white;
+	margin-top: 15px;
+	font-family: 'Macondo', cursive;
+	padding: 0px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #9fc105;
+}
+.under-title{
+	font-weight: bold;
+	align-items: center;
+	text-align: right;
+	display: flex;
+ 	justify-content: flex-end;
+	height: 90vh;
+	width: 95vw;
+	position: absolute;
+}
+.text{
+	border-radius: 15px;
+	background-color: rgba(56, 102, 0, 0.5);    
+	color: #fff4e0;
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	padding: 5px;
+}
+@media (min-width: 800px) {
+	.text{
+		font-size: 20px;
+	}
+	.title{
+		font-size: 35px;
+	}
+
+}

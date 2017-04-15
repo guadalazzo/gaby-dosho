@@ -6,14 +6,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { BodyComponent } from './body.component';
-import {FooterComponent} from './footer.component';
-import {MenuComponent} from './menu.component';
-import {HomeComponent} from './home-components/home.component';
-import {AboutComponent} from './about-components/about.component';
-import {ProductComponent} from './products-components/product.component';
-import {SuggestComponent} from './suggest-components/suggest.component';
-import {ContactComponent} from './contact-components/contact.component';
-import {PageNotFoundComponent} from './page-not-found/pagenotfound.component';
+import { FooterComponent } from './footer.component';
+import { MenuComponent } from './menu.component';
+import { HomeComponent } from './home-components/home.component';
+import { AboutComponent } from './about-components/about.component';
+import { ProductComponent } from './products-components/product.component';
+import { SuggestComponent } from './suggest-components/suggest.component';
+import { ContactComponent } from './contact-components/contact.component';
+import { PageNotFoundComponent } from './page-not-found/pagenotfound.component';
 
 
 const appRoutes: Routes = [
