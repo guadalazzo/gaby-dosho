@@ -1,5 +1,7 @@
 # GabyDosho
 
+Is a project in progress for a brand who specialize in spa products. Thinked in Responsive Design.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
