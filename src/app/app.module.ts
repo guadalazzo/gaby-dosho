@@ -11,7 +11,7 @@ import { MenuComponent } from './menu.component';
 import { HomeComponent } from './home-components/home.component';
 import { AboutComponent } from './about-components/about.component';
 import { ProductsComponent } from './products-components/products.component';
-// import { ProductComponent } from './product-components/product.component';
+import { ProductComponent } from './product-components/product.component';
 import { SuggestComponent } from './suggest-components/suggest.component';
 import { ContactComponent } from './contact-components/contact.component';
 import { PageNotFoundComponent } from './page-not-found/pagenotfound.component';
@@ -37,7 +37,7 @@ const appRoutes: Routes = [
     HomeComponent,
     AboutComponent,
     ProductsComponent,
-    // ProductComponent,
+    ProductComponent,
     SuggestComponent,
     ContactComponent,
     PageNotFoundComponent,

@@ -18,16 +18,25 @@
 	height: 90vh;
 	width: 100%;
 }
-.btn-default{
-	background-color: orange; 
-	color: white;
-	padding: 0px;
-	font-size: 20px;
-	border: 5px transparent solid;
-}
-.btn-default:hover{
-	border: 5px white solid;
+.btn-class{
+	font-family: 'Macondo', cursive;
+	display: inline-block;
+	font-weight: bold;
+	border: none;
+	color: #000000;
+	border-radius: 14px;
+	width: auto;
+	height: auto;
+	font-size: 17px;
+	padding: 3px 29px;
+	background-color: #41A341;
 	transition: 0.3s;
+	border: 2px solid transparent;
+}
+.btn-class:hover, .btn-class:active{
+	border: 2px solid #41A341;
+	color:  #41A341; 
+	background-color:  #FFFFFF
 }
 
 .cuerpo .title{
